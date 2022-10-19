@@ -1,12 +1,15 @@
 # CPP-Minor-Sub-projects
-Welcome to my C++ pet project repository.
+Welcome to my C++ pet project repository, which is part of my software development portfolio.
 
 As part of learning C++, I have developed some independent projects that perform small tasks.
 
-Here there are various small programs that can be run in a command prompt, which demonstrate various basic, intermediate and advanced skills.
+Here there are various small programs that are designed to be compiled, linked and then executed in a command line, which demonstrate various basic, intermediate and advanced skills.
 
-The source code has now been updated.
+The test operating systems used were Fedora Linux 35/36.
+The recommended Linux kernel version is 5.19.14-200.
+GNU GCC is used to compile on the test system.
+The current recommended version is 12.2.1 20220819.
+The tested system architecture is x86_64.
 
-In order to bring this to life, I have also investigated features that may help demonstrate the programs better:
-- Server-hosted sandbox to run C++ code, which will allow users to run from their web browser directly.
-- Video and voiceover demonstrations of the C++ programs.
+Please feel free to browse the subprojects and to read the commentary.
+

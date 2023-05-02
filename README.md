@@ -1,5 +1,5 @@
 # CPP-Minor-Sub-projects
-Welcome to my C++ pet project repository, which is part of my software development portfolio.
+Welcome to my C++ minor pet project repository, which is part of my software development portfolio.
 
 As part of learning C++, I have developed some independent projects that perform small tasks.
 

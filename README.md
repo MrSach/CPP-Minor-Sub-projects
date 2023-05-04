@@ -39,6 +39,9 @@ These programs were compiled and tested on a machine with the following specific
 After plenty of work I managed to compile and execute the programs in Windows 11 through 2 compiler collections:
 
   - Cygwin 3.4.6-1
+    - gcc-g++ 11.3.0-1
+    - make 4.4.1-2
+    - cmake 3.23.2-1
   - MinGW-w64 
 
 The CMake and makefile scripts in this repository were designed to link library files dynamically and not statically.

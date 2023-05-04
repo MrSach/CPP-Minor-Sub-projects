@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.26)
+cmake_minimum_required(VERSION 3.23)
 project(SGV_Minor_CPP_Projects)
 
 # C Character Arrays - Non-Explicit Size

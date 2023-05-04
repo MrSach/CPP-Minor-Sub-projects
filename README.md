@@ -42,7 +42,13 @@ After plenty of work I managed to compile and execute the programs in Windows 11
     - gcc-g++ 11.3.0-1
     - make 4.4.1-2
     - cmake 3.23.2-1
-  - MinGW-w64 
+  - MinGW-w64 10.0.22000
+    - gcc 12.2.0
+    - g++ 12.2.0
+    - mingw32-make (with GNU Make 4.2.1)
+
+CMake-GUI was installed separately from MinGW-W64.
+The CMake backend version used was 3.26.3.
 
 The CMake and makefile scripts in this repository were designed to link library files dynamically and not statically.
 Therefore, if building using either of these compiler collections, then the resultant programs would need to be executed using the runtime environment provided by that respective compiler collection.

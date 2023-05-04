@@ -44,7 +44,9 @@ If using either of these two to compile the programs in this repository, that co
 So, for example, .exe files built using Cygwin requires execution through a Cygwin terminal.
 The reason is that the libraries are built dynamically and not statically.
 The compiler collection provides a runtime environment for the programs to be executed in.
-In addition, some of these programs use the <thread> and <mutex> headers, which are implemented differently between POSIX and MS Windows OSes.
+In addition, some of these programs use the \<thread\> and \<mutex\> headers, which are implemented differently between POSIX and MS Windows OSes.
 
-As the small programs in this repository were designed to be linked using dynamically linked libraries, whichever is used to compile the programs will also need to be used to execute as they provide their respective runtime environments.
+
+As a reminder, if building through Cygwin, then please run through a Cygwin terminal.
+If building through MinGW-w64 then please run through a MinGW-w64 terminal.
 

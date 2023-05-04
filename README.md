@@ -5,7 +5,7 @@ As part of learning C++, I have developed some independent projects that perform
 
 Here there are various small programs that are designed to be compiled, linked and then executed in a command line, which demonstrate various basic, intermediate and advanced skills.
 
-Please feel free to browse the subprojects and to read the commentary.
+Please feel free to browse the subprojects and to read the commentary in the header files/source code.
 
 ----
 
@@ -17,8 +17,7 @@ The machine used to test the program binaries in this repository has the followi
 
   - AMD Ryzen 5 Pro 3500U
 
-I have noted the CPU because benchmarking performance is important, especially for multithreading, which is covered by some of the example programs.
-The CPU microarchitecture is x86_64.
+This CPU supports up to 8 simultaneous threads, but any modern x86_64 CPU should suffice for the programs that use concurrency.
 
 ----
 
@@ -42,13 +41,9 @@ After plenty of work I managed to compile and execute the programs in Windows 11
   - Cygwin 3.4.6-1
   - MinGW-w64 
 
-If using either of these two to compile the programs in this repository, that compiler collection is also needed to run the resultant program binaries.
+The CMake and makefile scripts in this repository were designed to link library files dynamically and not statically.
+Therefore, if building using either of these compiler collections, then the resultant programs would need to be executed using the runtime environment provided by that respective compiler collection.
 So, for example, .exe files built using Cygwin requires execution through a Cygwin terminal.
-The reason is that the libraries are built dynamically and not statically.
-The compiler collection provides a runtime environment for the programs to be executed in.
-In addition, some of these programs use the \<thread\> and \<mutex\> headers, which are implemented differently between POSIX and MS Windows OSes.
+In addition, some of these programs use the \<thread\> and \<mutex\> headers, which are implemented differently between POSIX and MS Windows NT OSes.
 
-
-As a reminder, if building through Cygwin, then please run through a Cygwin terminal.
-If building through MinGW-w64 then please run through a MinGW-w64 terminal.
-
+I have investigated more lightweight solutions to dependencies, but so far this remains a work in progress.

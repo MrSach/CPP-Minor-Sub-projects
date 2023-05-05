@@ -16,6 +16,8 @@ This should become the root folder.
 For example, if using Linux, one may clone to the directory:
 > /home/username/git/CPP-Minor-Sub-projects
 
+This can be accomplished through the git command line utility, or through downloading a .zip file and extracting the contents to a chosen directory.
+
 ----
 
 Linux x86_64

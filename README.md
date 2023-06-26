@@ -110,3 +110,14 @@ This is normal behaviour for various build systems, which are often not whitespa
 
 Linux: After compiling, executables should work natively in any Linux terminal shell. Simply enter the path of the executable that you would like to run into the terminal shell and then enter.
 Windows: If using Cygwin or MinGW-w64 to compile, please open a shell in that same compiler collection. This provides the runtime required to execute the binaries. Then enter the file path of the desired executable program within the Cygwin/MinGW terminal shell.
+
+
+----
+
+# Examples
+
+Here are some screeenshots that demonstrate some of these programs in action:
+
+-  Joker Game Joke
+
+[![Joker Game Joke](https://github.com/MrSach/CPP-Minor-Sub-projects/blob/main/Joker%20Game%20Joke/Joker_Game_Joke.png)]()

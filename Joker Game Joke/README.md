@@ -16,3 +16,9 @@ Here it is, one of the most irritating applications that performs one purpose: t
 It presents to the user a beautifully decorated card in full ASCII glory.
 The card displayed is self-explanatory, but regardless of the user's input, it always accuses the user of losing.
 There is no way of winning this practical joke application.
+
+----
+
+Example
+
+[![Joker Game Joke screenshot](https://github.com/MrSach/CPP-Minor-Sub-projects/blob/main/Joker%20Game%20Joke/Joker_Game_Joke.png)](https://github.com/MrSach/CPP-Minor-Sub-projects/blob/main/Joker%20Game%20Joke/Joker_Game_Joke.png)
